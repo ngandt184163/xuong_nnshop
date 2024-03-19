@@ -1,0 +1,34 @@
+section .list-product {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 10px;
+  display: flex;
+  float: left;
+  flex-wrap: wrap;
+}
+
+section .list-product .product {
+  width: 25%;
+  box-sizing: border-box;
+
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+section .list-product .product .info {
+  display: flex;
+  padding: 10px 0;
+}
+
+section .list-product .product .info h3,
+section .list-product .product .info i {
+  margin: auto;
+}
+
+section .list-product .product .xxx b {
+  margin-left: 48px;
+}
+
+section .list-product .product .img img {
+  width: 100%;
+}
