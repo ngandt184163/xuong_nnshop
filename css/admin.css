@@ -1,0 +1,35 @@
+section {
+  width: 90%;
+  margin-left: 5%;
+}
+
+section .bang {
+  margin-top: 20px;
+}
+
+section table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+section table tr td,
+section table tr th {
+  padding: 10px 5px;
+}
+
+section table tr:nth-child(2n + 1) {
+  background-color: #ccc;
+}
+
+section .add {
+  width: 180px;
+  height: 50px;
+  background-color: #f63;
+  text-align: center;
+}
+
+section .add a {
+  text-decoration: none;
+  color: #fff;
+  line-height: 50px;
+}

@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+.clear {
+  clear: both;
+}
+
 body {
   height: 2000px;
 }
@@ -48,6 +52,11 @@ header .nav-2 .cart {
   margin: auto;
 }
 
+header .nav-2 .logo {
+  position: relative;
+  left: 80px;
+}
+
 header .nav-2 .search {
   background: #fff;
 
@@ -63,6 +72,7 @@ header .nav-2 .search input {
   border: none;
   width: 600px;
   outline: none;
+  border-radius: 5px;
 }
 
 header .nav-2 .search i {

@@ -1,0 +1,84 @@
+section {
+  width: 90%;
+  margin-left: 5%;
+}
+
+section .product_detail {
+  display: flex;
+  float: left;
+  width: 100%;
+}
+
+section .product_detail .img {
+  width: 40%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+section .product_detail .img img {
+  width: 100%;
+}
+
+section .product_detail .info {
+  width: 60%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+section .product_detail .info > * {
+  margin: 15px 0;
+}
+
+section .product_detail .info .add_buy button {
+  border: none;
+  width: 150px;
+  height: 40px;
+}
+
+section .product_detail .info .add_buy button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+section .product_detail .info .add_buy .add {
+  background-color: rgba(255, 87, 34, 0.1);
+  border: 1px solid #f53d2d;
+}
+
+section .product_detail .info .add_buy .buy {
+  background-color: #f53d2d;
+}
+
+section .product_detail .info .vote ul {
+  display: flex;
+  float: left;
+}
+
+section .product_detail .info .vote ul li {
+  margin: 0 5px;
+  list-style-type: none;
+}
+
+section .product_detail .info .price i {
+  color: #f53d2d;
+  font-size: 30px;
+}
+
+section .product_detail .info .number {
+  display: flex;
+  float: left;
+}
+
+section .product_detail .info .number > * {
+  margin: 0 5px;
+}
+
+section .product_detail .info .number button {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+section .product_detail .info .number input {
+  width: 40px;
+  height: 30px;
+}
