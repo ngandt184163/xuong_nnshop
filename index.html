@@ -28,11 +28,19 @@
       </nav>
       <nav class="nav-2">
         <div class="logo">
-          <img src="./img/logo.png" alt="" />
+          <a href="index.html"><img src="./img/logo.png" alt="" /></a>
         </div>
         <div class="search">
-          <input type="text" placeholder="Search..." />
-          <i class="fa-solid fa-magnifying-glass"></i>
+          <form id="form-search" method="GET">
+            <input name="search" type="text" placeholder="Search..." />
+            <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+            <input
+              style="width: 70px; cursor: pointer"
+              type="submit"
+              name="btn-search"
+              value="Tim"
+            />
+          </form>
         </div>
         <div class="cart">
           <i class="fa-solid fa-cart-shopping"></i>
@@ -51,128 +59,7 @@
     </header>
 
     <section>
-      <div class="list-product">
-        <div class="product">
-          <div class="img">
-            <img
-              src="https://down-vn.img.susercontent.com/file/vn-50009109-0bef9fdb751252b12de4eddc032b71e3"
-              alt=""
-            />
-          </div>
-          <div class="info">
-            <h3>Product Name</h3>
-            <i>Price: $100</i>
-          </div>
-          <div class="xxx">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <b>Đã bán 15.6k</b>
-          </div>
-        </div>
-        <div class="product">
-          <div class="img">
-            <img
-              src="https://down-vn.img.susercontent.com/file/vn-50009109-0bef9fdb751252b12de4eddc032b71e3"
-              alt=""
-            />
-          </div>
-          <div class="info">
-            <h3><a href="product_detail.html">Product Name</a></h3>
-            <i>Price: $100</i>
-          </div>
-          <div class="xxx">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <b>Đã bán 15.6k</b>
-          </div>
-        </div>
-        <div class="product">
-          <div class="img">
-            <img
-              src="https://down-vn.img.susercontent.com/file/vn-50009109-0bef9fdb751252b12de4eddc032b71e3"
-              alt=""
-            />
-          </div>
-          <div class="info">
-            <h3>Product Name</h3>
-            <i>Price: $100</i>
-          </div>
-          <div class="xxx">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <b>Đã bán 15.6k</b>
-          </div>
-        </div>
-        <div class="product">
-          <div class="img">
-            <img
-              src="https://down-vn.img.susercontent.com/file/vn-50009109-0bef9fdb751252b12de4eddc032b71e3"
-              alt=""
-            />
-          </div>
-          <div class="info">
-            <h3>Product Name</h3>
-            <i>Price: $100</i>
-          </div>
-          <div class="xxx">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <b>Đã bán 15.6k</b>
-          </div>
-        </div>
-        <div class="product">
-          <div class="img">
-            <img
-              src="https://down-vn.img.susercontent.com/file/vn-50009109-0bef9fdb751252b12de4eddc032b71e3"
-              alt=""
-            />
-          </div>
-          <div class="info">
-            <h3>Product Name</h3>
-            <i>Price: $100</i>
-          </div>
-          <div class="xxx">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <b>Đã bán 15.6k</b>
-          </div>
-        </div>
-        <div class="product">
-          <div class="img">
-            <img
-              src="https://down-vn.img.susercontent.com/file/vn-50009109-0bef9fdb751252b12de4eddc032b71e3"
-              alt=""
-            />
-          </div>
-          <div class="info">
-            <h3>Product Name</h3>
-            <i>Price: $100</i>
-          </div>
-          <div class="xxx">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <b>Đã bán 15.6k</b>
-          </div>
-        </div>
-      </div>
+      <div class="list-product"></div>
     </section>
 
     <footer>
@@ -183,4 +70,6 @@
     src="https://kit.fontawesome.com/791d1d50ef.js"
     crossorigin="anonymous"
   ></script>
+
+  <script src="./js/home.js"></script>
 </html>

@@ -54,10 +54,11 @@
     <section>
       <div class="product_detail">
         <div class="img">
-          <img src="./img/mitom.webp" alt="" />
+          <img id="img" src="./img/mitom.webp" alt="" />
         </div>
         <div class="info">
-          <h3>Ten san pham</h3>
+          <h3 class="title">Ten san pham</h3>
+          <!-- su dung thuoc tinh innerText -->
           <div class="vote">
             <ul>
               <li style="color: #f67">
@@ -75,13 +76,13 @@
           <div class="price">
             <br />
             <del>125 000</del>
-            <i>100 000</i>
+            <i id="price">100 000</i>
           </div>
 
           <div class="number">
             <p>so luong</p>
             <button class="minus">-</button>
-            <input type="number" value="1" />
+            <input id="num" type="number" value="1" min="1" />
             <button class="plus">+</button>
           </div>
 
@@ -102,4 +103,6 @@
     src="https://kit.fontawesome.com/791d1d50ef.js"
     crossorigin="anonymous"
   ></script>
+
+  <script src="./js/detail_product.js"></script>
 </html>
